@@ -107,10 +107,10 @@ h1 {
 
 .img {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Adjust column layout as needed */
-  gap: 20px; /* Adjust gap between images */
-  justify-content: center; /* Horizontally center the images */
-  align-items: flex-end; /* Vertically align images to the bottom */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
   padding: 20px;
 }
 #phone-container {
