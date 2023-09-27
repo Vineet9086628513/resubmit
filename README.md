@@ -43,9 +43,7 @@ The HTML code
       </div>
     </header>
     <section>
-      <div
-        class="img grid grid-cols-3 lg:flex lg:justify-center items-end relative bottom-80 -mb-72"
-      >
+      <div class="img">
         <img src="./images/pngwing 2 (1).png" alt="" />
         <img src="./images/pngwing 1.png" alt="" />
         <img src="./images/pngwing 2.png" alt="" />
@@ -60,9 +58,7 @@ The HTML code
           placeholder="e.g. oppo, samsung, iphone"
           class="input input-bordered"
         />
-        <button onclick="searchHandler()" class="btn btn-primary">
-          Search
-        </button>
+        <button onclick="searchHandler()" class="btn-primary">Search</button>
       </section>
       <section>
         <div class="text-center my-40 hidden" id="loading">
@@ -150,6 +146,7 @@ The HTML code
     <script src="index.js"></script>
   </body>
 </html>
+
 
 
 ```
